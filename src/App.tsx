@@ -11,7 +11,7 @@ const App:React.FunctionComponent<AppProps> =  ({ appName }) => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>hello ts react {name}</h1>
+        <h1>hello ts react {appName}</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
