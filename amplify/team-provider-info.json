@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-reactboiler-dev-101854-authRole",
-      "UnauthRoleArn": "arn:aws:iam::756269256288:role/amplify-reactboiler-dev-101854-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::756269256288:role/amplify-reactboiler-dev-101854-authRole",
-      "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-reactboiler-dev-101854-deployment",
-      "UnauthRoleName": "amplify-reactboiler-dev-101854-unauthRole",
-      "StackName": "amplify-reactboiler-dev-101854",
-      "StackId": "arn:aws:cloudformation:us-west-2:756269256288:stack/amplify-reactboiler-dev-101854/d3994d40-3730-11ec-b15c-06f438ce5d8f",
-      "AmplifyAppId": "dgprrbo0bbicy"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-reactboiler-dev-101854-authRole",
+            "UnauthRoleArn": "arn:aws:iam::756269256288:role/amplify-reactboiler-dev-101854-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::756269256288:role/amplify-reactboiler-dev-101854-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-reactboiler-dev-101854-deployment",
+            "UnauthRoleName": "amplify-reactboiler-dev-101854-unauthRole",
+            "StackName": "amplify-reactboiler-dev-101854",
+            "StackId": "arn:aws:cloudformation:us-west-2:756269256288:stack/amplify-reactboiler-dev-101854/d3994d40-3730-11ec-b15c-06f438ce5d8f",
+            "AmplifyAppId": "dgprrbo0bbicy"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dgprrbo0bbicy",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
